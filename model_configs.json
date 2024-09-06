@@ -1,0 +1,14 @@
+{
+    
+    "config_name": "gpt-4", 
+    "model_type": "openai_chat",    
+
+    "api_key" : "d4259c15567e44809c9629fae89583f8",
+    "OPENAI_API_TYPE" : "azure",
+    "OPENAI_API_VERSION" : "2023-03-15-preview",
+    "AZURE_ENDPOINT":"https://aichatlanba.openai.azure.com/",
+    "streaming":"True",
+    "temperature":"temperature"
+    
+
+}

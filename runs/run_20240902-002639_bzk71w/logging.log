@@ -1,0 +1,10 @@
+2024-09-02 00:26:55.504 | INFO     | agentscope.models:read_model_configs:186 - Load configs for model wrapper: gpt-4
+2024-09-02 00:26:55.525 | WARNING  | agentscope.models.openai_model:__init__:61 - model_name is not set, use config_name instead.
+2024-09-02 00:26:55.525 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [gpt-4]
+2024-09-02 00:26:55.625 | INFO     | agentscope.utils.monitor:register_budget:609 - set budget None to gpt-4
+2024-09-02 00:26:55.627 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.cost] to SqliteMonitor with unit [dollor] and quota [None]
+2024-09-02 00:26:55.638 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-09-02 00:26:55.664 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-09-02 00:26:55.687 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-09-02 00:26:55.700 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-09-02 00:26:55.712 | WARNING  | agentscope.message:__init__:150 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.

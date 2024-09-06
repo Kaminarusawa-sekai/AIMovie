@@ -1,0 +1,9 @@
+2024-09-02 18:32:36.800 | INFO     | agentscope.models:read_model_configs:186 - Load configs for model wrapper: gpt-4
+2024-09-02 18:32:36.805 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [gpt-4]
+2024-09-02 18:32:37.165 | INFO     | agentscope.utils.monitor:register_budget:609 - set budget None to gpt-4
+2024-09-02 18:32:37.167 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.cost] to SqliteMonitor with unit [dollor] and quota [None]
+2024-09-02 18:32:37.170 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-09-02 18:32:37.175 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-09-02 18:32:37.181 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-09-02 18:32:37.184 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-09-02 18:32:37.186 | WARNING  | agentscope.message:__init__:150 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.

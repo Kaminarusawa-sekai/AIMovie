@@ -1,0 +1,23 @@
+2024-09-02 19:27:14.795 | INFO     | agentscope.models:read_model_configs:186 - Load configs for model wrapper: my_postapiwrapper_config
+2024-09-02 19:27:14.801 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_postapiwrapper_config]
+2024-09-02 19:27:14.801 | WARNING  | agentscope.message:__init__:150 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-09-02 19:27:16.890 | WARNING  | agentscope.models.post_model:__call__:138 - Failed to call the model with requests.codes == 404, retry 2/3 times
+2024-09-02 19:27:19.799 | WARNING  | agentscope.models.post_model:__call__:138 - Failed to call the model with requests.codes == 404, retry 3/3 times
+2024-09-02 19:27:23.607 | ERROR    | agentscope.models.post_model:__call__:157 - {
+    "url": "https://aichatlanba.openai.azure.com/",
+    "json": {
+        "d4259c15567e44809c9629fae89583f8": [
+            {
+                "role": "system",
+                "name": "system",
+                "content": "You are a helpful ai assistant"
+            },
+            {
+                "role": "assistant",
+                "name": "assitant",
+                "content": "Hi!"
+            }
+        ]
+    },
+    "headers": {}
+}

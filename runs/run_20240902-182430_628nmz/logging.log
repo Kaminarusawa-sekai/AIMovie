@@ -1,0 +1,8 @@
+2024-09-02 18:24:38.254 | INFO     | agentscope.models:read_model_configs:186 - Load configs for model wrapper: gpt-4
+2024-09-02 18:24:38.258 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [gpt-4]
+2024-09-02 18:24:38.618 | INFO     | agentscope.utils.monitor:register_budget:609 - set budget None to gpt-4
+2024-09-02 18:24:38.622 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.cost] to SqliteMonitor with unit [dollor] and quota [None]
+2024-09-02 18:24:38.626 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-09-02 18:24:38.633 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-09-02 18:24:38.639 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-09-02 18:24:38.642 | INFO     | agentscope.utils.monitor:register:417 - Register metric [gpt-4.total_tokens] to SqliteMonitor with unit [token] and quota [None]
